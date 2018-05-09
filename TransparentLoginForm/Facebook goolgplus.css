@@ -1,0 +1,60 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ul
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+}
+ul li
+{
+    position: relative;
+    list-style: none;
+    float: left;
+}
+ul li a
+{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+    transitiion: width 0.5s;
+    box-sizing: border-box;
+}
+ul li:hover a
+{
+    width: 120px;
+}
+ul li a .fa
+{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #ffffff;
+    border-ringht: 4px solid #ffffff;
+}
+ul li a span
+{
+    color: #ffffff;
+    padding-left: 10px;
+}
+ul li:nth-child(1) a
+{
+    background: #4c5fd7;
+}
+ul li:nth-child(2) a
+{
+    background: #f46f30;
+}
